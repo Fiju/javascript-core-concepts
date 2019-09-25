@@ -1,7 +1,8 @@
 # Closures
 
 ```
-A closure is the combination of a function and the lexical environment within which that function was declared.
+A closure is the combination of a function and the lexical environment within 
+which that function was declared.
 ```
 
 In other words, a closure gives us access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time. To use a closure, we define a function inside another function and expose it by returning it or pass it to another function. The inner function will have access to the variables in the outer function scope, even after the outer function has returned. That's the general concept about closure.
