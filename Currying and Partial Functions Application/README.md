@@ -71,3 +71,9 @@ The `bind` method turns function into a new function which implicitely set the p
 
 - Currying _always_ produces a unary functions. Whereas Partial application produces functions of arbitrary number of arguments fewer then the original one.
 - Currying is not partial application. It can be implemented using partial application. You can’t curry a function that takes any number of arguments
+
+### References
+
+- [Currying](https://javascript.info/currying-partials)
+- [Currying in Javascript - William Vincent](https://wsvincent.com/javascript-currying/)
+- [Partial Function Application in Javascript and Flow](https://medium.com/@JosephJnk/partial-function-application-in-javascript-and-flow-7f3ca87074fe)
