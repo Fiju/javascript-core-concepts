@@ -16,3 +16,26 @@ Functions also have a prototype property. This is distinct from their __proto__ 
 Prototypal Inheritance
 -------------------------------------------------------
 Inheritance in JavaScript works through prototype and this form of inheritance is often called prototypal inheritance.
+
+
+### Basic Example
+
+```javascript
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    getFullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+
+const singer = {
+    firstName: 'Peter',
+    lastName: 'Quil',
+};
+
+singer.__proto__ = person;
+
+person.getFullName(); // John Doe
+singer.getFullName(); // Peter Quil
+```
